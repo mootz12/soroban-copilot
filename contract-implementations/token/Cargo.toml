@@ -1,0 +1,23 @@
+[package]
+name = "token"
+version = "0.0.1"
+description = "Standardized implementation of a CAP-0046-06 token."
+homepage = "https://github.com/mootz12/soroban-copilot"
+repository = "https://github.com/mootz12/soroban-copilot"
+authors = ["mootz12 <mootz12@pm.me>"]
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[features]
+testutils = ["soroban-sdk/testutils"]
+
+[dependencies]
+soroban-sdk = "0.6.0"
+
+[dev_dependencies]
+soroban-sdk = { version = "0.6.0", features = ["testutils"] }

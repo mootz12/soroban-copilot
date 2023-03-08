@@ -1,0 +1,18 @@
+[package]
+name = "soroban-contracts"
+version = "0.0.1"
+description = "Standard contract implementations and interface clients for Soroban"
+homepage = "https://github.com/mootz12/soroban-copilot"
+repository = "https://github.com/mootz12/soroban-copilot"
+authors = ["mootz12 <mootz12@pm.me>"]
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+keywords = ["no_std", "wasm"]
+rust-version = "1.67"
+
+[dependencies]
+soroban-sdk = "0.6.0"
+
+[dev_dependencies]
+soroban-sdk = { version = "0.6.0", features = ["testutils"] }
