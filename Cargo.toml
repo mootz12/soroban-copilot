@@ -2,9 +2,7 @@
 resolver = "2"
 
 members = [
-	"contract-implementations/token",
 	"fixed-point-math",
-	"soroban-contracts"
 ]
 
 [profile.release]

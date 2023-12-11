@@ -1,4 +1,12 @@
-# fixed-point-math
+# DEPRECATED
+
+This package has been deprecated in favor of https://crates.io/crates/soroban-fixed-point-math and is no longer being maintained. The last supported version was `0.0.2`.
+
+If you would like to use this crate name, please email me (listed in `Cargo.toml`)
+
+## Old README
+
+## fixed-point-math
 A light fixed-point math library for Rust. Written specifically to be used in [Soroban](https://soroban.stellar.org/) and other WASM based blockchain environments.
 
 ## Safety

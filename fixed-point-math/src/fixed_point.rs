@@ -1,3 +1,4 @@
+#[deprecated(since="0.1.0", note="please use crate `soroban-fixed-point-math` instead")]
 pub trait FixedPoint: Sized {
     /// Safely calculates floor(x * y / denominator). Returns None if a phantom overflow
     /// occurs or if the denominator is 0.
